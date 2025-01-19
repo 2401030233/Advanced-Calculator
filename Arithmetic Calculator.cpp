@@ -1,7 +1,7 @@
 # include <iostream>
 # include <cmath>
 # include <iomanip>
-# include <windows.h>
+# include <windows>
 using namespace std;
 class calc
 {
