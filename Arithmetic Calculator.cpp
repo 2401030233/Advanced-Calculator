@@ -264,7 +264,7 @@ void calc::calculate1()
             getRatio();
             if (r>=-1 && r<=1)
             {
-                angle_deg=(M_PI/180)*asin(r);
+                angle_deg=(180/M_PI)*asin(r);
                 cout<<"\nrslt : "<<angle_deg<<endl;
             }
             else
@@ -276,7 +276,7 @@ void calc::calculate1()
             getRatio();
             if (r>=-1 && r<=1)
             {
-                angle_deg=(M_PI/180)*acos(r);
+                angle_deg=(180/M_PI)*acos(r);
                 cout<<"\nrslt : "<<angle_deg<<endl;
             }
             else
@@ -286,7 +286,7 @@ void calc::calculate1()
             break;
         case 23:
             getRatio();
-            angle_deg=(M_PI/180)*atan(r);
+            angle_deg=(180/M_PI)*atan(r);
             cout<<"\nrslt : "<<angle_deg<<endl;
             break;
         case 24:
